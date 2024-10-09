@@ -76,11 +76,11 @@ for (distance in reverseRange) {
 
 ## Roadmap
 
-1. Support for Additional Units
+### Support for Additional Units
    Imperial Units: Add support for miles, yards, feet, and inches.
    Astronomical Units: For niche applications, support for units like light-years, astronomical units (AU), parsecs, etc.
 
-2. Conversion Between Units
+### Conversion Between Units
    Provide functions to easily convert between different units of distance. For instance:
 
 ```kotlin
@@ -88,36 +88,38 @@ for (distance in reverseRange) {
   val distanceInFeet = distanceInMeters.toFeet()
 ``` 
 
-3. Formatting and String Representation
+### Formatting and String Representation
 
 ```kotlin
 val formattedDistance = distance.toHumanReadableString() // "10 kilometers" or "10 km"
 ```
 
-4. Parsing from Strings
+### Parsing from Strings
 
 ```kotlin
 val distance: Distance = Distance.parse("15 km")
 ```
 
-5. Serialization and Deserialization
+### Serialization and Deserialization
 
 ```kotlin
 @Serializable
   data class Journey(val distance: Distance)
 ```
 
-6. Advanced Mathematical Operation
+### Advanced Mathematical Operation
 
 ```kotlin
 val scaledDistance = distance.scale(2.5)
 ```
 
-7. Integration with Geospatial Libraries
+### Integration with Geospatial Libraries
 
-8. Extending Range Operations
+### Extending Range Operations
    - Advanced range operations such as sub-ranges and partial iterations.
 
 ```kotlin
 val subRange = range.subRange(2.kilometers, 4.kilometers)
 ```
+
+### Make it a multiplatform library
