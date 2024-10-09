@@ -74,7 +74,7 @@ for (distance in reverseRange) {
 ## Acknowledgments
 - Inspired by Kotlin's Duration class.
 
-## Upcoming features
+## Roadmap
 
 1. Support for Additional Units
    Imperial Units: Add support for miles, yards, feet, and inches.
