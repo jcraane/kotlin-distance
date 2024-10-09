@@ -123,3 +123,5 @@ val subRange = range.subRange(2.kilometers, 4.kilometers)
 ```
 
 ### Make it a multiplatform library
+
+### Use kotest instead of junit
